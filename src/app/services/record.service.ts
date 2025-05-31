@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class RecordService {
 
-private apiUrl = 'http://127.0.0.1:8000/api/tables/';
+// private apiUrl = 'http://127.0.0.1:8000/api/tables/';
+private apiUrl = 'https://crud-backend-1obn.onrender.com/api/tables'
 
   constructor( private http:HttpClient) { }
 
